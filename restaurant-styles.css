@@ -1,0 +1,104 @@
+.tables-pane {
+  width: 300px;
+  float: left;
+}
+.hidden {
+  display: none;
+}
+h3 {
+  position: relative;
+  left: 150px;
+}
+.show-modal {
+  border: none;
+  background-color: #fff;
+
+  cursor: pointer;
+}
+
+#modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40%;
+  display: none;
+  background-color: white;
+  padding: 3rem 5rem;
+  border-radius: 5px;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+  z-index: 10;
+  max-width: max-content;
+}
+.close {
+  color: black;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.modal-header {
+  padding: 2px 16px;
+  background-color: whitesmoke;
+  color: black;
+}
+.menu-pane {
+  margin-left: 306px;
+}
+#filter-menu {
+  width: 300px;
+}
+#food-items {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+.vl {
+  position: absolute;
+  height: 1000px;
+  display: inline;
+  left: 306px;
+  margin-left: 2px;
+  border-left: 5px solid black;
+}
+
+li {
+  list-style-type: none;
+  position: relative;
+  font-size: 1.5rem;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid black;
+}
+
+ul {
+  counter-reset: section;
+  padding-inline-start: 5px;
+}
+
+input[type="text" i] {
+  position: relative;
+  padding: 1px 2px;
+  left: 20px;
+}
+.active {
+  background-color: rgb(255, 219, 88);
+}
+table {
+  border-spacing: 15px;
+  max-width: max-content;
+}
+
+input [type="number" i] {
+  position: relative;
+}
+
+button {
+  float: left;
+}

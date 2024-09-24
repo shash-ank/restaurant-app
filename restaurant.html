@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Krishna's Restaurant</title>
+    <link rel="stylesheet" href="restaurant-styles.css" />
+  </head>
+
+  <body>
+    <div class="tables-pane">
+      <h3>Tables</h3>
+      <input type="text" placeholder="Search table" id="filter-tables" />
+      <ul id="table-items"></ul>
+    </div>
+    <div class="vl"></div>
+    <div class="menu-pane">
+      <h3>Menu</h3>
+      <input
+        type="text"
+        placeholder="Search menu.. by course, by food "
+        id="filter-menu"
+      />
+      <br /><br /><br />
+      <ul id="food-items"></ul>
+    </div>
+    <div id="modal">
+      <div class="modal-header">
+        <span class="close">&times;</span>
+        <h2 id="table-heading">Order details</h2>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
